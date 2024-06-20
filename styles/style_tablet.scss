@@ -1,0 +1,23 @@
+@media (min-width:768px) and (max-width:1024px) {
+    @import 'mixins';
+
+    .Header_menu {
+        grid-template-columns: 4% 1fr 2fr 1fr;
+    }
+
+    .offer {
+        width: 95%;
+    }
+
+    .products {
+        width: 95%;
+    }
+
+    .product__box {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .footer {
+        @include columnCenter;
+    }
+}
